@@ -6,7 +6,7 @@ public class HomeWork1Millerka {
     где a, b, c, d – целочисленные входные параметры этого метода;
      */
     private static float number(int a, int b, int c, int d){
-        return (float)a * ((float)b + ((float)c / (float)d));
+        return a * (b + ((float)c / d));
     }
 
     /* Написать метод, принимающий на вход два целых числа,
