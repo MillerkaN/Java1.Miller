@@ -6,7 +6,7 @@ public class HomeWork1Millerka {
     где a, b, c, d – целочисленные входные параметры этого метода;
      */
     private static float number(int a, int b, int c, int d){
-        return a * (b + (c / d));
+        return (float)a * ((float)b + ((float)c / (float)d));
     }
 
     /* Написать метод, принимающий на вход два целых числа,
@@ -58,7 +58,7 @@ public class HomeWork1Millerka {
 
     public static void main(String [] args){
 
-        System.out.println(number(2,3,8, 4));
+        System.out.println(number(1,2,3, 4));
         System.out.println();
 
         System.out.println(checkNumSum(2, 3));
